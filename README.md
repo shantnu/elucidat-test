@@ -70,4 +70,9 @@ Still to do:
 
 2. API testing: I'm not sure if there is an API tool (like Swagger). If not, maybe reverse engineer the network calls using the dev tools?
 
-For testing, my preferred choice is Python with a library like requests, but I have used tools like Postman/Insominia.
+For testing, my preferred choice is Python with a library like requests, but I have used tools like Postman/Insominia.- [Elucidat Test](#elucidat-test)
+- [Elucidat Test](#elucidat-test)
+  - [To run the tests](#to-run-the-tests)
+  - [Test Details](#test-details)
+  - [Bug Report](#bug-report)
+  - [TO DO](#to-do)
