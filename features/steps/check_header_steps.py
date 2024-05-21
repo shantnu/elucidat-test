@@ -4,8 +4,8 @@ from playwright.sync_api import sync_playwright
 @given('I open the Elucidat webpage')
 def step_given_i_open_the_webpage(context):
     context.playwright = sync_playwright().start()
-    context.browser = context.playwright.chromium.launch(headless=False, slow_mo=500)
-    context.page = context.browser.new_page()
+    context.browser = context.playwright.chromium.launch(headless=False, slow_mo=1000)
+    context.page = context.browser.new_page(record_video_dir='./videos')
     context.page.goto("https://learning.elucidat.com/course/5c9126fd760e5-611a53751213a")
 
 @then('the header should be "{expected_header}"')

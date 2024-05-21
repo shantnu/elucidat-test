@@ -28,19 +28,14 @@ playwright install
 
 Run the tests:
 
-```
-behave
 
-```
-
-The output will be visible on commandline. There is also an html report that can be generated:
 
 ```
 behave -f html -o out.html
 
 ```
 
-This will output the result as an html file (out.html), though note this uses a legacy plugin.
+This will output the result as an html file (out.html).
 
 Any failure videos will be under the videos folder
 
@@ -48,4 +43,4 @@ Tested on Mac & Linux (though should work on Windows)
 
 ## Bug Report
 
-The bug report is in "Bug Report.docx".
+The bug report is in "Bug Report.docx". There is also a video showing a failure on a mobile in the git repo : elucidat-iphone-bug.MP4
