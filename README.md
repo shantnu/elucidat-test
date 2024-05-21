@@ -1,5 +1,10 @@
 # Elucidat Test
 
+- [Elucidat Test](#elucidat-test)
+  - [To run the tests](#to-run-the-tests)
+  - [Bug Report](#bug-report)
+
+
 ## To run the tests
 
 Create and activate virtual env:
@@ -35,5 +40,12 @@ behave -f html -o out.html
 
 ```
 
+This will output the result as an html file (out.html), though note this uses a legacy plugin.
+
+Any failure videos will be under the videos folder
 
 Tested on Mac & Linux (though should work on Windows)
+
+## Bug Report
+
+The bug report is in "Bug Report.docx".
